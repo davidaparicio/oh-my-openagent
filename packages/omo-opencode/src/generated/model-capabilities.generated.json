@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T03:51:44.830Z",
+  "generatedAt": "2026-06-29T05:57:47.128Z",
   "sourceUrl": "https://models.dev/api.json",
   "models": {
     "xai/grok-4": {
@@ -4744,9 +4744,7 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text",
-          "image",
-          "video"
+          "text"
         ],
         "output": [
           "text"
@@ -21672,8 +21670,28 @@
         "output": 262128
       }
     },
-    "glm-5-fast": {
-      "id": "glm-5-fast",
+    "kimi-k2.6-flex": {
+      "id": "kimi-k2.6-flex",
+      "family": "kimi-k2",
+      "reasoning": true,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 262128,
+        "output": 262128
+      }
+    },
+    "glm-5.2-short-fast-flex": {
+      "id": "glm-5.2-short-fast-flex",
       "family": "glm",
       "reasoning": false,
       "temperature": true,
@@ -21687,8 +21705,46 @@
         ]
       },
       "limit": {
-        "context": 202736,
-        "output": 202736
+        "context": 199984,
+        "output": 199984
+      }
+    },
+    "glm-5.2-flex": {
+      "id": "glm-5.2-flex",
+      "family": "glm",
+      "reasoning": true,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 1048560,
+        "output": 1048560
+      }
+    },
+    "glm-5.2-short-fast": {
+      "id": "glm-5.2-short-fast",
+      "family": "glm",
+      "reasoning": false,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 199984,
+        "output": 199984
       }
     },
     "qwen3.5-397b-fast": {
@@ -21708,25 +21764,6 @@
       "limit": {
         "context": 262128,
         "output": 262128
-      }
-    },
-    "glm-5.1-fast": {
-      "id": "glm-5.1-fast",
-      "family": "glm",
-      "reasoning": false,
-      "temperature": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "limit": {
-        "context": 202736,
-        "output": 202736
       }
     },
     "kimi-k2.6-fast": {
@@ -21769,6 +21806,44 @@
         "output": 131056
       }
     },
+    "glm-5.2-short-flex": {
+      "id": "glm-5.2-short-flex",
+      "family": "glm",
+      "reasoning": true,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 199984,
+        "output": 199984
+      }
+    },
+    "glm-5.2-fast": {
+      "id": "glm-5.2-fast",
+      "family": "glm",
+      "reasoning": false,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 1048560,
+        "output": 1048560
+      }
+    },
     "glm-5.2-short": {
       "id": "glm-5.2-short",
       "family": "glm",
@@ -21784,8 +21859,28 @@
         ]
       },
       "limit": {
-        "context": 200000,
-        "output": 200000
+        "context": 199984,
+        "output": 199984
+      }
+    },
+    "kimi-k2.7-code-flex": {
+      "id": "kimi-k2.7-code-flex",
+      "family": "kimi-k2",
+      "reasoning": true,
+      "temperature": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 262144,
+        "output": 262144
       }
     },
     "qwen/qwen3.5-397b-a17b-fp8": {
@@ -28991,7 +29086,7 @@
       "temperature": true
     },
     "nvidia/llama-3.3-70b-instruct-fp8": {
-      "id": "nvidia/llama-3.3-70b-instruct-fp8",
+      "id": "nvidia/Llama-3.3-70B-Instruct-FP8",
       "family": "llama",
       "reasoning": false,
       "temperature": true,
@@ -29005,8 +29100,8 @@
         ]
       },
       "limit": {
-        "context": 131072,
-        "output": 131072
+        "context": 128000,
+        "output": 4096
       }
     },
     "evroc/roc": {
@@ -30151,6 +30246,26 @@
       "limit": {
         "context": 125000,
         "output": 4096
+      }
+    },
+    "moonshotai/kimi-k2.6-fast": {
+      "id": "moonshotai/Kimi-K2.6-Fast",
+      "family": "kimi-k2",
+      "reasoning": true,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 262144,
+        "output": 262144
       }
     },
     "llama-4-scout-17b-16e-instruct-fp8": {
@@ -32567,6 +32682,25 @@
       "limit": {
         "context": 200000,
         "output": 200000
+      }
+    },
+    "zai-org/glm-5.2-fp8": {
+      "id": "zai-org/GLM-5.2-FP8",
+      "family": "glm",
+      "reasoning": true,
+      "temperature": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "limit": {
+        "context": 1000000,
+        "output": 131072
       }
     },
     "z-code": {
